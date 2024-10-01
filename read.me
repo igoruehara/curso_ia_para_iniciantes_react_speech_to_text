@@ -1,0 +1,39 @@
+Entre na pasta react-speech-to-text
+cd react-speech-to-text
+cd backend
+npm install ou yarn install
+node server.js
+
+Volte para pasta anterior
+
+cd ..
+cd frontend
+npm install ou yarn install
+npm start
+
+
+Estrutura de pastas:
+
+
+react-speech-to-text/
+├── frontend/
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       │   ├── SpeechToText.js
+│       │   └── SpeechToText.css
+│       ├── App.js
+│       ├── index.js
+│       └── App.css
+└── README.md
+
+
+1. Tecnologia Utilizada: Web Speech API (SpeechRecognition)
+1.1. O Que é a Web Speech API?
+A Web Speech API é uma API fornecida pelos navegadores modernos que permite a interação de voz com aplicações web. Ela consiste em duas partes principais:
+
+SpeechRecognition (Reconhecimento de Fala): Converte a fala do usuário em texto.
+SpeechSynthesis (Síntese de Fala): Converte texto em fala, permitindo que a aplicação "fale" com o usuário.
+No seu projeto, você está utilizando a parte de SpeechRecognition para transformar a fala do usuário em texto.
